@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Player A by 1 point.
      */
     public void addZeroForPlayerA(View v) {
-        scorePlayerA = scorePlayerA + 1;
+        scorePlayerA = scorePlayerA + 0;
         displayForPlayerA(scorePlayerA);
     }
 
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Player A by 2 points.
      */
     public void addOneForPlayerA(View v) {
-        scorePlayerA = scorePlayerA + 2;
+        scorePlayerA = scorePlayerA + 1;
         displayForPlayerA(scorePlayerA);
     }
 
@@ -68,14 +68,14 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Player B by 1 point.
      */
     public void addZeroForPlayerB(View v){
-        scorePlayerB = scorePlayerB +1;
+        scorePlayerB = scorePlayerB +0;
         displayForPlayerB(scorePlayerB);
     }
     /**
      * Increase the score for Player B by 2 points.
      */
     public void addOneForPlayerB(View v) {
-        scorePlayerB = scorePlayerB + 2;
+        scorePlayerB = scorePlayerB + 1;
         displayForPlayerB(scorePlayerB);
     }
 
